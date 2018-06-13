@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Netflix</title>
+
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+		<!-- Custom CSS -->
+		<link href="css/landing-page.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Custom Fonts -->
+		<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+		<!-- JS -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+	</head>
+
+	<body style="background-color: firebrick">
+		
+		<div class="container" style="background-color: white">
+			
+    		<div class="row">
+				<div class="col-md-2">
+				</div>
+				
+				<div class="col-md-8">
+				  
+				    <h1 class="text-center" style="color: black">Netflix®</h1>
+			      
+				</div>
+				
+				<div class="col-md-2">
+			 	 <a class="btn btn-danger" href="Netflix2.html" role="button">Pagina Successiva --></a>
+				</div>
+			</div>
+			
+			<hr>
+			
+		  <div class="row">
+			  
+				<div class="col-md-6">
+					<h3>Introduzione</h3>
+						<p>Netflix è un'azienda operante nella distribuzione via internet di film, serie televisive e altri contenuti d'intrattenimento. Fondata da Reed Hastings e Marc Randolph il 29 agosto 1997 a Scotts Valley, in California.[1] Nel 2013, Netflix ha ampliato la produzione cinematografica e televisiva e la distribuzione online. Ha la sede centrale a Los Gatos, in California. Altri sedi sono state in seguito create nei Paesi Bassi, Brasile, India, Giappone e Corea del Sud.
+
+						Nasce nel 1997 come attività di noleggio di DVD, sebbene Hastings abbia messo da parte le vendite circa un anno dopo, e videogiochi. Gli utenti potevano prenotare i dischi via internet, ricevendoli direttamente a casa tramite il servizio postale. Dal 2008 l'azienda ha attivato un servizio di streaming online on demand, accessibile tramite un apposito abbonamento, che è divenuto presto il suo campo d'attività principale, mentre dal 2011 il servizio di noleggio di dischi è stato scorporato, venendo offerto dalla sussidiaria Qwikster.
+
+						</p>
+				</div>
+
+				<div class="col-md-6">
+				  <img src="img/netflix.png" class="img-responsive">
+				</div>	
+			  
+			</div>
+			
+			<hr>
+			
+		  <div class="row">
+				
+				<div class="col-md-6">
+						<img src="img/fondatori.jpg" class="img-responsive">
+				</div>
+				
+				<div class="col-md-6">
+					
+					<h3>Fondazione</h3>
+						<p>Netflix è stata fondata il 29 agosto 1997 a Scotts Valley, California, da Marc Randolph[14] e Reed Hastings. Randolph ha lavorato come direttore marketing per la società di Hastings, Pure Atria.[15] Randolph è stato uno dei co-fondatori di MicroWarehouse, una società di vendita per corrispondenza di computer, ed in seguito è stato assunto da Borland International come vicepresidente del marketing. Hastings, scienziato informatico e matematico, ha venduto Pure Atria a Rational Software Corporation nel 1997 per 700 milioni di dollari in quella che è stata l'acquisizione più ricca nella storia della Silicon Valley. Hanno avuto l'idea di Netflix mentre facevano i pendolari tra le loro case a Santa Cruz ed il quartier generale di Pure Atria a Sunnyvale in attesa che i regolatori governativi approvassero la fusione, sebbene Hasting abbia fornito diverse spiegazioni su come è stata creata l'idea.[16]</p>
+						
+				</div>
+
+					
+			  
+			</div>
+			
+			<hr>
+			
+			<div class="row">
+			  	<div class="col-md-3">
+					
+					<h4>Sedi di Netflix</h4>
+					
+					<code>	
+						<?php 
+							$sedi =[
+									'Los Gatos in California',
+									'Paesi Bassi',
+									'Brasile',
+									'India',
+									'Giappone',
+									'Corea del Sud.',
+									];
+
+								foreach ($sedi as $key =>$value){
+									print "<li>$value</li>";
+									}
+						?>
+					</code>
+				</div>
+			  	<div class="col-md-9">
+					<h3>Riconoscimenti di Netflix</h3>
+						<p>Nel 2006 Netflix ha lanciato un premio[29] di un milione di dollari per chi fosse in grado di migliorare del 10% almeno le performance dell'algoritmo di suggerimento dei film. Tale algoritmo suggerisce agli utenti nuovi film da vedere sulla base del gradimento espresso dagli utenti per i contenuti già visti. Il 26 luglio 2009 è stata annunciata la chiusura dell'invio di nuovi risultati, due sono i team che hanno superato la soglia del 10% richiesta dal regolamento. Il 21 settembre i giudici di Netflix hanno assegnato il premio ad uno dei due team[30].</p>
+				</div>
+		  </div>
+			
+			<hr>
+			
+				<p class="text-center">&copy;Copyright</p>
+			
+		</div>
+				
+			
+	</body>
+</html>
